@@ -1,0 +1,37 @@
+[
+{
+"id": 99,
+"user_id": "10",
+"pic_url": "http://s3-ap-southeast-1.amazonaws.com/homigo/production/public/images/property/1/medium/1_1.jpg?1461436001", 
+"status": 2,
+"type" : 2
+},
+{
+"id": 120,
+"user_id": "10",
+"pic_url": "http://s3-ap-southeast-1.amazonaws.com/homigo/production/public/images/property/1/medium/1_1.jpg?1461436001", 
+"status": 3,
+"type" : 4
+},
+{
+"id": 121,
+"user_id": "21",
+"pic_url": "http://s3-ap-southeast-1.amazonaws.com/homigo/production/public/images/property/1/medium/1_1.jpg?1461436001", 
+"status": 3,
+"type" : 1
+},
+{
+"id": 134,
+"user_id": "21",
+"pic_url": "http://s3-ap-southeast-1.amazonaws.com/homigo/production/public/images/property/1/medium/1_1.jpg?1461436001", 
+"status": 2,
+"type" : 4
+},
+{
+"id": 141,
+"user_id": "33",
+"pic_url": "http://s3-ap-southeast-1.amazonaws.com/homigo/production/public/images/property/1/medium/1_1.jpg?1461436001", 
+"status": 3,
+"type" : 2
+}
+]

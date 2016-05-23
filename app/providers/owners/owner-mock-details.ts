@@ -1,0 +1,13 @@
+import {OwnerDetails} from './owner-details';
+
+export var OWNERS : OwnerDetails[] = [
+	{
+	"id": 22,
+	"name": "Soumojit Ghosh",
+	"email": "soumojit@homigo.in",
+	"pic_url": "http://s3-ap-southeast-1.amazonaws.com/homigo/production/public/images/property/1/medium/1_1.jpg?1461436001",
+	"gender": "Male",
+	"address": "E1306, Mantri Elegance, Bannerghatta Main Road, Bangalore",
+	"phone": "7259905232"
+	}
+];

@@ -1,0 +1,17 @@
+<ion-content class="tenants">
+    <ion-list *ngFor="let tenant in property_tenants">
+        <ion-item>
+            <ion-avatar item-left>
+                <img src="{{tenant.pic_url}}">
+            </ion-avatar>
+            <h3> {{tenant.name}}</h3>
+            <p> move_in_date : {{tenant.move_in_date}}</p>
+            <p> emailId : {{tenant.email}}</p>
+            <p> gneder : {{tenant.gender}}</p>
+            <p> Type Of Booking : {{tenant.booking_type}}</p>
+            <p> Rent : {{tenant.rent}}</p>
+            <p> Deposited Ammount : {{tenant.deposit}}</p>
+        </ion-item>
+    </ion-list>
+    <button (click)="close()"> Dismiss Modal </button>
+</ion-content>

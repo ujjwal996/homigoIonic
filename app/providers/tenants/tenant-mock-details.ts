@@ -1,0 +1,43 @@
+import {TenantDetails} from './tenant-details';
+
+export var PROPTENANTS : TenantDetails[] = [
+	{
+	"id": 10,
+	"name": "Aakash Verma",
+	"email": "aakash@homigo.in",
+	"pic_url": "http://s3-ap-southeast-1.amazonaws.com/homigo/production/public/images/property/1/medium/1_1.jpg?1461436001",
+	"move_in_date": "2016-05-01",
+	"gender": "Male",
+	"booking_type": 1,
+	"status": "3",
+	"rent" : "15000",
+	"deposit" : "45000",
+	"property_id" : 1
+	},
+	{
+	"id": 21,
+	"name": "Nikunj Batheja",
+	"email": "nikunj@homigo.in",
+	"pic_url": "http://s3-ap-southeast-1.amazonaws.com/homigo/production/public/images/property/1/medium/1_1.jpg?1461436001",
+	"move_in_date": "2016-04-11",
+	"gender": "Male",
+	"booking_type": 0,
+	"status": "3",
+	"rent" : "12000",
+	"deposit" : "30000",
+	"property_id" : 1
+	},
+	{
+	"id": 33,
+	"name": "Jatin Mitruka",
+	"email": "jatin@homigo.in",
+	"pic_url": "http://s3-ap-southeast-1.amazonaws.com/homigo/production/public/images/property/1/medium/1_1.jpg?1461436001",
+	"move_in_date": "2016-04-25",
+	"gender": "Male",
+	"booking_type": 0,
+	"status": "3",
+	"rent" : "10000",
+	"deposit" : "30000",
+	"property_id" : 1
+	}
+]

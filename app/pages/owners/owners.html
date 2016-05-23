@@ -1,0 +1,20 @@
+<ion-navbar *navbar>
+    <ion-title>
+        Homigo
+    </ion-title>
+</ion-navbar>
+
+<ion-content class="owners">
+    <ion-list *ngFor="let owner of owners" (click)="goToProperties(owner)">
+        <ion-item>
+            <ion-avatar item-left>
+                <img src="{{owner.pic_url}}">
+            </ion-avatar>
+            <h2>{{owner.name}}</h2>
+            <p>address:{{owner.address}}</p>
+
+            <p>phoneNo.:{{owner.phone}}</p>
+            <p>emailId:{{owner.email}}</p>
+        </ion-item>
+    </ion-list>
+</ion-content>

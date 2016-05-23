@@ -1,0 +1,23 @@
+<ion-navbar *navbar>
+    <ion-title>
+        {{selectedOwner}}'s Properties'
+    </ion-title>
+</ion-navbar>
+
+<ion-content class="properties">
+    <ion-list **ngFor="let property of owner_properties" (click)="openTenantsModal(property)">
+        <ion-item>
+            <ion-avatar item-left>
+                <img src="{{property.photo}}">
+            </ion-avatar>
+            <h2>{{property.name}</h2>
+            <p>city : {{property.city}}</p>
+            <p>landmark : {{property.landmark}}</p>
+            <p>type : {{property.type}}</p>
+            <p>availability : {{property.totalavailability}}</p>
+            <p>places-around : {{property.places_nearby}}</p>
+            <p>location : {{property.location}}</p>
+            <p>labelled as : {{property.label}}</p>
+        </ion-item>
+    </ion-list>
+</ion-content>
